@@ -569,10 +569,9 @@ footer .copy {
 
   .satu .satuRight {
     padding: 0px;
+    margin: 0;
     order: 1;
     overflow-x: hidden;
-
-    /* overflow: hidden; */
   }
 
   .satuRight .web {
