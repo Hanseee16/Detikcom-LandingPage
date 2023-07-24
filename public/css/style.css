@@ -570,6 +570,8 @@ footer .copy {
   .satu .satuRight {
     padding: 0px;
     order: 1;
+    overflow-x: hidden;
+
     /* overflow: hidden; */
   }
 
@@ -804,7 +806,7 @@ footer .copy {
   }
 
   .duaLeft .calender {
-    left: 165px;
+    left: 140px;
     top: 8px;
     width: 200px;
   }
