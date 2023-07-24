@@ -237,6 +237,7 @@ section a {
 
 .satu .satuRight {
   position: relative;
+  /* overflow: hidden; */
 }
 
 .satuRight .web {
@@ -399,13 +400,6 @@ section a {
   letter-spacing: 0.14px;
 }
 
-/* .testimoni .btnSwiper i {
-  width: 32px;
-  height: 32px;
-  color: var(--softBlue);
-} */
-/* end testimoni */
-
 /* footer */
 footer {
   background-color: var(--darkBlue);
@@ -499,6 +493,7 @@ footer .copy {
   transition-duration: 0.2s;
   transition-timing-function: ease-in-out;
   transition-property: background-color, color;
+  z-index: 100;
 }
 #back-to-top-btn:hover,
 #back-to-top-btn:focus {
@@ -579,6 +574,7 @@ footer .copy {
   .satu .satuRight {
     padding: 60px 0px 0px 0px;
     order: 1;
+    /* overflow: hidden; */
   }
 
   .satuRight .web {
@@ -599,10 +595,6 @@ footer .copy {
     top: 350px;
     left: 290px;
   }
-
-  /* .satuRight img {
-    width: 1100px;
-  } */
 
   .dua {
     margin: 80px 0px 0px 0px;
@@ -769,7 +761,6 @@ footer .copy {
   }
 
   .satu .satuRight {
-    /* margin: 0px 0px 0px 30px; */
     order: 1;
     padding-top: 60px;
     overflow-x: hidden;
@@ -785,18 +776,14 @@ footer .copy {
   }
 
   .satuRight .mentors {
-    bottom: 110px;
-    left: 30px;
+    bottom: 40px;
+    left: 20px;
   }
 
   .satuRight .send {
-    top: 345px;
+    top: 245px;
     left: 230px;
   }
-
-  /* .satuRight img {
-    width: 830px;
-  } */
 
   .satu h1 {
     font-size: 34px;
@@ -816,7 +803,7 @@ footer .copy {
   }
 
   .duaLeft .calender {
-    left: 165px;
+    left: 135px;
     top: 8px;
     width: 200px;
   }
