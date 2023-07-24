@@ -774,17 +774,16 @@ footer .copy {
 
   .satuRight .taskToday {
     left: 50px;
-    top: 55px;
   }
 
   .satuRight .mentors {
-    bottom: 40px;
+    bottom: 110px;
     left: 20px;
   }
 
   .satuRight .send {
-    top: 245px;
-    left: 230px;
+    top: 285px;
+    left: 210px;
   }
 
   .satu h1 {
